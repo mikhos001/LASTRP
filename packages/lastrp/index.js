@@ -1,2 +1,4 @@
-require('./commands.js')
-require('./events.js')
+// Init events.
+require('./events.js');
+// Init commands.
+require('./commands.js');
