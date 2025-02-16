@@ -1,5 +1,5 @@
-//init Commands file
-require('./commands.js')
+
 
 //init Events file
-require('./events.js')
+import './events.js';
+import "./commands.js";
