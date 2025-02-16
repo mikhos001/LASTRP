@@ -1,0 +1,1 @@
+require('lastrp/index.js');
