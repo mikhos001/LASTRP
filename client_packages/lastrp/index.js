@@ -14,7 +14,12 @@ mp.events.add('guiReady', () => {
         // Init menus and events, when browser ready.
         mp.events.add('browserDomReady', (browser) => {
             if (browser == menu) {
-               
+
+                //init evens
+                require('lastrp/events.js')(menu);
+
+                //init menu
+                playersInit(menu);
 
                 mp.gui.execute(`insertMessageToChat('<div style="background-color: rgba(0, 0, 0, 0.75); font-size: 1.0vw; padding: 6px; color: #ff0000; font-weight: 600;">Press F2 for open freeroam menu.</div>', 'true');`);
             }
