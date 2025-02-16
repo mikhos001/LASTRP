@@ -1,0 +1,10 @@
+{
+	"maxplayers" : 100,
+	"name" : "RAGE:MP Ebalo na zero", 
+	"gamemode" : "freeroam", 
+	"stream-distance" : 300.0,
+	"announce" : false,
+	"csharp" : "disabled",
+	"bind": "212.41.8.250",
+	"port": 22005
+}
